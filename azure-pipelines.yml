@@ -19,5 +19,5 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'rounakdockerhub'
-    repository: 'pipelines-javascript-docker'
-    command: 'push necuserrounak/test:'
+    repository: $(imageName)
+    command: 'push'
