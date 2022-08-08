@@ -20,4 +20,4 @@ steps:
   inputs:
     containerRegistry: 'rounakdockerhub'
     repository: 'pipelines-javascript-docker'
-    command: 'push'
+    command: 'push necuserrounak/test:'
