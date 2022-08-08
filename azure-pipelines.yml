@@ -19,5 +19,6 @@ steps:
 - task: Docker@2
   inputs:
     containerRegistry: 'rounakdockerhub'
-    repository: necuserrounak/$(imageName)
+    repository: $(imageName)
     command: 'push'
+    tags: necuserrounak
